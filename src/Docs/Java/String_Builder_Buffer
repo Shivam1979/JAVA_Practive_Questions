@@ -1,0 +1,8 @@
+89. Write the difference between a String, StringBuffer, and a StringBuilder.
+
+
+
+
+String               : Immutable  |   Store in SCP     |  Not Thread Safe |  Slower
+StringBuffer         :mutable     |   Store in HEap    |  Thread Safe     |  Faster than String but Slower than String Builder
+StringBuilder        :mutable     |   Store in HEap    |  Not Thread Safe |  Faster

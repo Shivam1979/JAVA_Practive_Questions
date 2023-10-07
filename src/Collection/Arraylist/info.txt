@@ -1,0 +1,58 @@
+#import java.util.*;
+ // collection framework is a java API which provide the readymade architecture to
+store and manipulate the object .
+
+#Collection framework come in java 1.2 version
+#Java start from the java 1.0 version
+
+ class : collection,   Map  ,Set ,List ,Queue  ,Sortedmap ,sortedset , naviagablemap ,navigable set ;
+Iterable--> (for each) 1.8 (froeach method)
+       Collection(I) : it represent the group of object in a single unit // because it is a Interface so it will give onl defination
+                  not the implementation so implementaion is done by child Class
+
+
+                  Collection have two child and both are interface (And they are also not implementing the method)
+                  List (I)  & Set (I)
+
+                  List (used idex )                                 Set    (Not index it done by HashTable are hashSet)
+                       (duplicate is also allowed )                        (Duplicates are not allowed )
+                       (oredr is preserved)                                (Order is not preserved because it not use indexing)
+                       (we can also store multiple value, and              (
+                        null value )
+
+
+
+                        List (I) --> ArrayList(C) ----> Dynamic Array
+                                     LinkedList(C)---> Doubly Linked List
+                                     Vector(C) Legacy (1.0) ----> Transverse by Enumeration
+                                                Dynamic Array -->Additional features-->
+                                                #this have new feature as well as old
+                                                #it is thread safe
+                                                #vector have one more child
+                                                Stack(C)---LIFO
+
+
+                        Set(I)---->
+                                   Hashset(C)----->
+                                                   LinkedHashset(C)---->
+                                   SortedSet(I)--->
+                                                   TreeSet(C)------>
+                                                                    #sorted
+                                                                    #BST
+
+
+
+Iterator(I) --Forward---> object collection ke pass hai
+^
+|
+|
+ListIterator -->Backword +  Foreward ----->List ke pass hai sirf
+
+
+Map (I) --> It store the object in the form of key value pair , it have only defination
+           key are like a set -- duplicate not allowed
+                                 order not preserved
+           HashMap (C)----->           #order not preserved
+                           LinkedHashset(C)  #order preserved , #duplicate not allowed
+           SortedMap(I) --->
+                            TreeMap(C)

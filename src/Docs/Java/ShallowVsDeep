@@ -1,0 +1,10 @@
+What are shallow copy and deep copy in Java?
+
+                   Shallow Copy -----------------------------------------------------Deep Copy
+
+            1--> *In Shallow copy the pointer point to the   ----------------In deep copy  it Create the copy of the main object
+                      same original object
+
+            2--> * Comprativily it is faster ---------------------------------It is slower
+
+           3-->   * it reflect the change in Original object -----------It  reflectcan not reflect the change in original one because

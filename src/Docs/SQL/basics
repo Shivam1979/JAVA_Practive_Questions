@@ -1,0 +1,163 @@
+
+
+
+
+
+
+1. *What is SQL, and what is it used for?*
+
+  SQL stand for Structured Query Language it is used to intract with the relational database to
+    intract and organise the data of database
+
+    and it used to communicate the databases to perform the some operations in data
+
+
+
+
+
+
+
+
+2. *Explain the differences between SQL and NoSQL databases.*
+           SQL ------------------------------------------------------------NoSQL
+        -----------------------------------------------------------------------------
+    i)Relational databases                                 Non -relational databases
+   ii) vertically Scalable                                 Horizontally Scalable
+   iii)Uses ACID property                                  Use BASE property
+   iv) It is used to when correct data is important        When Fast data is important than correct data
+
+
+
+
+
+
+
+
+
+3. *What are the different types of SQL JOINs, and how do they work?*
+   Join is used to join two or more table , when tha data of table is not sufficient  to analyze then we use
+   join
+
+   Type of join
+   1).  Inner join   2).Outer join> Left join , Right join , Full join  3).  Self join  4).  Cross Join
+
+
+                        Let left Table is A and Right table is B
+
+  Inner join---> Inner join return the intersection of both of the table or matching record of
+  the both of the table
+
+  Syntax : SELECT * FROM  A as a inner join B as b on a.* = b.* ; return the A∩B;
+  Outer join
+  Left Join --->Left join return all the matching record of the right table B and all the record of A
+  Syntax : SELECT * FROM A as a Left join B as b on a.* = b.* ; retunn  A U (A∩B);
+
+  Right  Join --->Left join return all the matching record of the left  table B and all the record of right table
+  Syntax : SELECT * FROM B as b Left join A as a on a.* = b.* ; retunn  B U (A∩B);
+
+  Full  Join --->Left join return all the matching and non- Matching record of both of the table
+  Syntax : SELECT * FROM A as a Full join B as b on a.* = b.* ; retunn  A U B;
+
+   Self   Join --->Left join return all the matching and non- Matching record of both of the table
+  Syntax : SELECT * FROM A as a self  join A as a on a.* = a.*  Condition ; retunn  A*;
+
+  Cross Join : it combine each row of left table from each row of right table
+  Syntax : SELECT * FROM A as a cross  join B as b on a.* = b.*  Condition ;
+
+
+
+
+
+
+
+
+4. *How do you retrieve all records from a table?*
+ for all record of table we use Star(*)
+ SELECT * FROM TABLE A;
+ SELECT * FROM TABLE B;
+ SELECT * FROM TABLE C;
+
+
+
+
+
+
+
+
+ 5. *What is a primary key, and why is it important?*
+ Primary key is key that uniquely identify in tuple of table , it can not be null and uplicate
+
+ It is important because
+     by using the primary key we can esily   search and get the data from record ,
+     it can not be duplicate so the all record will be distinct to perform some specific operation in
+     certain condition
+
+
+
+
+
+
+
+
+6. *What is an index in a database, and why would you use one?*
+
+   index is the data structure that provide the quickly access of specific information without read all the data
+   * it is used to improve the performance
+
+\
+
+
+
+
+
+
+
+
+
+
+
+
+7. *Explain the concept of normalization in databases.*
+   Normalization is the process to organize the table it break the bigger table in to the smaller table
+   it remove the duplicate data from the table
+   
+T ypes of normalization
+i) 1NF
+ii)2NF
+iii)3NF
+iv) BCNF(Boyce Codd normal form)
+
+
+
+
+
+
+
+8. *What is a foreign key, and how does it relate to primary keys?*
+
+    Foreign key is the key is the column or group of column that show the relationship between two table ,
+    and it points a primary key of another table
+    * forein key can be null
+    *Foreign key can be duplicate also
+
+
+
+9. *Write a SQL query to find the second highest salary in a table.*
+
+SELECT * FROM employee order by DESC limit 1,1;
+
+
+
+
+
+
+
+
+
+10. *What is a subquery, and how is it different from a JOIN?*
+  subquery is the nested query inside the query  subquery is used to perform the complex calculation and filtring
+
+
+ # Subquery is more flexible than join because they can handle diffrent data & Operations
+ # We can perform the subquery where we can not apply join
+ # Subquery is easy to understand for beginners than Joins

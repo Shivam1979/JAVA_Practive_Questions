@@ -1,0 +1,32 @@
+
+
+
+-- 39.  *Retrieve the highest salary among all employees.*
+select firstname , lastname , salary from employees order by salary desc limit 1;
+
+
+-- 40. *Retrieve the first name of the employees whose role id is greater than 5.*
+select Firstname , roleid from employees where roleid > 5;
+
+
+-- 41.  *Retrieve the first name of the employees whose department id is less than 6 but greater than 3.*
+
+select firstname , departmentid from employees where departmentid < 6 &&  departmentid >3;
+
+-- 42. *Retrieve the first name of the employees whose names end with "n."*
+
+select firstname from employees where firstname like '%n';
+
+
+-- 43.  *Retrieve the first name in ascending order.*
+select  firstname from employeeinfo order by firstname asc;
+
+-- 44.  *Retrieve the last name in ascending order of role id.*
+select firstname , roleid from employees order by roleid asc;
+
+
+-- 45.*Retrieve employees who earn less than 60,000 or greater than 85,000.*
+select firstname , lastname  , salary from employees where salary <60000 || salary >85000;
+
+--  46 *Retrieve employees who earn more than 70,000 and less than 85,000.*
+select firstname  , lastname , salary from employees where salary > 70000 && salary <85000;

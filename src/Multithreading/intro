@@ -1,0 +1,89 @@
+ Thre are are two way to create a object
+          1. THREAD CLASS
+          2. RUNNABLE INTERFACE
+
+
+          by thread class
+ step 1.
+     extend thread class
+
+ step 2.
+      override the run method
+ step 3.
+
+        create an  object of class ex; test t = new test();
+        create an object of thread class and pass the parameter in constructor
+        CreateThread ct = new CreateThread();
+        Thread th = new Thread(ct);
+        ct.start();
+
+QUE : what is step to create a thread
+
+
+
+Thread class method and constructor
+
+Thred implement Runnable{
+Thread():
+Thread(Runnable);
+Thread(String);
+Thread(Runnable target , String name);
+Thread(ThreadGroup tg , Runnable target);
+
+
+
+method---------------
+1) run()
+2) start()
+3) currentThread(): // static method
+4) isAlive // True, false
+5) getName(); //
+6) setName(String name):
+Daemon
+isDaemon();
+setDaemon(); // if we give true then it will daemon thread
+
+Priority
+setPriority();
+getPriority();
+
+Preventing method
+Sleep();
+yield();
+join();
+  depricated method >>>>>>
+suspend();
+resume()
+destroy();
+
+
+Intruptions method
+
+intrupt();
+isIntrupted();
+interrupted();
+
+InterThread Communication
+not in thread class the all are in object class
+wait();
+notify();
+notifyall();
+
+
+   }
+
+
+   DAEMON THREAD
+   * it run in background of another thread
+   * it provide the service
+   * Garbage collector, finalize, ........Spelling checker
+
+
+   METHOD OF daemon
+   public final void setDaemon(Booleam b);
+   public final bollean isDaemon();
+
+
+
+
+

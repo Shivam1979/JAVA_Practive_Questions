@@ -1,0 +1,21 @@
+In java there are two type of datatype
+
+Primative datatype
+                             SIZE                    DEFAULT VALUE
+                   1. int----4 byte                          0
+                   2. float--4 byte                          0.0f
+                   3. double--8 byte                         0.0d
+                   4.long--8 byte                            0L
+                   5.sort--2 byte                            0
+                   6.boolean --1 bit***************          False
+                   7.byte --1 byte                           0
+                   8.char-2 byte                             '/u0000'
+
+Non-Primitive datatype
+                   1.String
+                   2.Array
+                   3.List
+                   4.Set
+                   5.All user defined class
+                   6.Stack
+                   7.Vector
