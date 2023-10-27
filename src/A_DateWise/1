@@ -1,0 +1,58 @@
+JAVA QUESTIONS
+TOTAL 10 Questions
+
+311. *How do you find duplicate numbers in an array if it contains multiple 1.
+**Iterating through Collections:* 🔄 Create a class "Playlist" that manages a collection of songs.
+ Implement methods to add songs to the playlist and iterate through the songs using iterators,
+  demonstrating how to traverse the playlist in both forward and backward directions. 🎵🔁
+
+312. *Create a LinkedList and Find Length:* 📏 Create a LinkedList, add elements, and find the length of the linked list.
+   - 🎲 *Input:* Linked list: 1 -> 2 -> 3 -> 4
+   - 🎯 *Output:*
+     - Linked list: 1 -> 2 -> 3 -> 4 -> 5
+     - Length: 5
+
+313. *Find the Maximum Product of Two Integers in an Array:* 🧮
+   - 🎲 *Input:* [2, 3, 4, 5, 6]
+   - 🎯 *Output:* Maximum product: 30
+
+314. *Throwing Custom Exceptions:* 🚨 Implement a method that throws a custom exception if a specific condition is not met.
+   - 🎲 *Input:*
+     - Value: -5
+   - 🎯 *Output:* CustomException: Value must be positive.
+
+315. *Find the First Non-Repeating Character in a String:* 🔠
+   - 🎲 *Input:* "geeksforgeeks"
+   - 🎯 *Output:* First non-repeating character: "f"
+
+316. *Find all the Permutations of a String:* 🔄
+   - 🎲 *Input:* "abc"
+   - 🎯 *Output:* ["abc", "acb", "bac", "bca", "cab", "cba"]
+
+317. *Set Zero in Row and Column for Each 0 Element:* 🏗
+   - *Test Case:*
+     - I/P:
+
+       [[1, 2, 3, 4],
+        [5, 6, 7, 8],
+        [9, 0, 1, 2],
+        [3, 4, 5, 0]]
+
+     - O/P:
+
+       [[1, 0, 3, 0],
+        [5, 0, 7, 0],
+        [0, 0, 0, 0],
+        [0, 0, 0, 0]]
+
+
+318. *Understanding Aggregation, Association, & Composition:* 🏗
+
+319. *Find the Intersection of Two ArrayLists:* 🔗
+   - 🎲 *Input:*
+     - List 1: [1, 2, 3, 4, 5]
+     - List 2: [3, 4, 5, 6, 7]
+   - 🎯 *Output:*
+     - Intersection: [3, 4, 5]
+
+320. *Nested Classes:* 🏠 Create a class "House" with a nested class "Kitchen." Demonstrate how the nested class can access the attributes of the outer class. 🍽🏡
