@@ -2,6 +2,7 @@ package LinkedList;
 
 public class PrintLinkedList {
 
+
     static Node insert(Node head, int data) {
         Node new_node = new Node(data);
         if (head == null) {

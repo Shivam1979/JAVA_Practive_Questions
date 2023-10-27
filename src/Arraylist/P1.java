@@ -1,8 +1,10 @@
 package Arraylist;
 
+import Arrays.Demo;
+
 import java.util.ArrayList;
 
-public class P1 {
+public class P1{
     public static void main(String[] args) {
         int a = 20;
         int b = 30;

@@ -11,13 +11,15 @@ public class FibbNumb {
         int n1 = 0;
         int n2 = 1;
         int n3;
-        int count = 0;
-        while (count < number) {
-            System.out.println(n1 + " ");
+        if (number==1) System.out.println(n1 +" ");
+        if (number == 2) System.out.println(n2 +" ");
+        if (number>2) System.out.print(n1 +" ");
+        while (number < 0) {
             n3 = n1 + n2;
+            System.out.print(n3 + " ");
             n1 = n2;
             n2 = n3;
-            count++;
+            number++;
         }
     }
     public static void main(String[] args) {
@@ -25,7 +27,7 @@ public class FibbNumb {
         fib(n);
         System.out.println();
         for (int i = 1; i < 12; i++) {
-            System.out.println(fibonacci(i)); //
+            System.out.print(fibonacci(i)+ " "); //
         }
     }
 }

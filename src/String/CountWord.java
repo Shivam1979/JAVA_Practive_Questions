@@ -17,7 +17,6 @@ public class CountWord {
                 strr = strr + ch;
                 count++;
             }
-
         }
         System.out.println(strr);
         System.out.println(count);

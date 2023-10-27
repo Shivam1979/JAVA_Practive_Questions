@@ -37,15 +37,16 @@ public class ReverseList {
                 next = next.next;
             }
         }
+
         return head;
     }
 
     public static void main(String[] args) {
         Node head = null;
-        head = insert(head, 12);
+        head = insert(head, 1);
         head = insert(head, 2);
-        head = insert(head, 112);
-        head = insert(head, 15);
+        head = insert(head, 3);
+        head = insert(head, 4);
         printList(head);
         head = reverseList(head);
         printList(head);
